@@ -22,7 +22,8 @@ public class MainActivity extends Activity {
         }
         runTimer();
     }
-
+// just for check !!
+    // hello world
     public void onSaveInstanceState(Bundle saveInstanceState) {
         saveInstanceState.putInt("seconds",seconds);
         saveInstanceState.putBoolean("running",running);
